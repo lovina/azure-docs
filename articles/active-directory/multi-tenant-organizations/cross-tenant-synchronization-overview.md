@@ -150,6 +150,7 @@ How do I control what is synchronized into the target tenant?
 If a user is removed from the scope of sync in a source tenant, will cross-tenant synchronization soft delete them in the target?
 
 - Yes. If a user is removed from the scope of sync in a source tenant, cross-tenant synchronization will soft delete them in the target tenant.
+- However the user will not be able to login in the terget since, there is no longer a trust relationship between the tenants
 
 If the sync relationship is severed, are external users previously managed by cross-tenant synchronization deleted in the target tenant?
 
