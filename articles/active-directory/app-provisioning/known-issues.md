@@ -51,6 +51,8 @@ Provisioning manager attributes isn't supported.
 
 It's possible for synchronized users to appear in the global address list (GAL) of the target tenant for people search scenarios, but it isn't enabled by default. In attribute mappings for a configuration, you must update the value for the **showInAddressList** attribute. Set the mapping type as constant with a default value of `True`. For any newly created B2B collaboration users, the showInAddressList attribute will be set to true and they'll appear in people search scenarios. For more information, see [Configure cross-tenant synchronization](../multi-tenant-organizations/cross-tenant-synchronization-configure.md#step-9-review-attribute-mappings).
 
+Organisation for the synched users will not be active since manager attrbute is not synched
+
 For existing B2B collaboration users, the showInAddressList attribute will be updated as long as the B2B collaboration user doesn't have a mailbox enabled in the target tenant. If the mailbox is enabled in the target tenant, use the [Set-MailUser](/powershell/module/exchange/set-mailuser) PowerShell cmdlet to set the HiddenFromAddressListsEnabled property to a value of $false.
 
 `Set-MailUser [GuestUserUPN] -HiddenFromAddressListsEnabled:$false`
