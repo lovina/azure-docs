@@ -284,3 +284,4 @@ Once the SuccessFactors provisioning app configurations have been completed, you
 * [Learn how to configure single sign-on between SuccessFactors and Azure Active Directory](successfactors-tutorial.md)
 * [Learn how to integrate other SaaS applications with Azure Active Directory](tutorial-list.md)
 * [Learn how to export and import your provisioning configurations](../app-provisioning/export-import-provisioning-configuration.md)
+* [https://learn.microsoft.com/en-us/azure/active-directory/governance/what-are-lifecycle-workflows](Life cycle workflow -> include this as a next step)
