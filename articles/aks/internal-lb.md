@@ -128,13 +128,12 @@ internal-app   LoadBalancer   10.0.184.168   10.240.0.25   80:30225/TCP   4m
 
 For more information on configuring your load balancer in a different subnet, see [Specify a different subnet][different-subnet]
 
-## Connect Azure Private Link service to internal load balancer (Preview)
+## Connect Azure Private Link service to internal load balancer
 
 ### Before you begin
 
 You must have the following resources:
 
-* Azure CLI version 2.0.59 or later.
 * Kubernetes version 1.22.x or later.
 * An existing resource group with a VNet and subnet. This resource group is where you'll [create the private endpoint](#create-a-private-endpoint-to-the-private-link-service). If you don't have these resources, see [Create a virtual network and subnet][aks-vnet-subnet].
 
@@ -280,6 +279,6 @@ To learn more about Kubernetes services, see the [Kubernetes services documentat
 [aks-sp]: kubernetes-service-principal.md#delegate-access-to-other-azure-resources
 [different-subnet]: #specify-a-different-subnet
 [aks-vnet-subnet]: configure-kubenet.md#create-a-virtual-network-and-subnet
-[unique-subnet]: use-multiple-node-pools.md#add-a-node-pool-with-a-unique-subnet
+[unique-subnet]: create-node-pools.md#add-a-node-pool-with-a-unique-subnet
 [az-network-vnet-subnet-list]: /cli/azure/network/vnet/subnet#az-network-vnet-subnet-list
 [get-azvirtualnetworksubnetconfig]: /powershell/module/az.network/get-azvirtualnetworksubnetconfig
