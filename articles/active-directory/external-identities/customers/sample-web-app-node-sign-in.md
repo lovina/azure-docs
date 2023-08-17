@@ -29,7 +29,7 @@ In this article, you do the following tasks:
 
 - Update a sample Node.js web application using your own Azure Active Directory (Azure AD) for customers tenant details.
 
-- Run and test the sample web application.
+- Run, then test the sample web application.
 
 ## Prerequisites
 
