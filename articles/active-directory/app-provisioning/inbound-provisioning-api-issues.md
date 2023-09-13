@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot inbound provisioning API
 description: Learn how to troubleshoot issues with the inbound provisioning API.
-author: jfields
+author: jenniferf-skc
 manager: amycolannino
 ms.service: active-directory
 ms.subservice: app-provisioning
